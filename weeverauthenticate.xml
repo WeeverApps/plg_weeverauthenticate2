@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.7" type="plugin" group="user" method="upgrade">
+
+	<name>User - Weever AJAX Authenticator</name>
+	<author>Robert Gerald Porter</author>
+	<creationDate>2012-05-31</creationDate>
+	
+	<copyright>>(c) 2012 Weever Apps Inc.</copyright>
+	
+	<license>GPLv3</license>
+	
+	<authorEmail>rob@weeverapps.com</authorEmail>
+	<authorUrl>http://www.weeverapps.com/</authorUrl>
+	<version>0.2</version>
+	
+	<description>Enables login via Asyncronous Javascript connection.</description>
+	
+	<files>
+	
+		<filename plugin="weeverauthenticate">weeverauthenticate.php</filename>
+		
+	</files>
+
+</extension>
